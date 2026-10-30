@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Naifatul Ashila</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-50 shadow-sm border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="#" class="text-xl font-bold text-indigo-600">Ashila<span class="text-gray-800">.Portfolio</span></a>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#hero" class="hover:text-indigo-600 transition">Beranda</a>
+                    <a href="#about" class="hover:text-indigo-600 transition">About Me</a>
+                    <a href="#skills" class="hover:text-indigo-600 transition">What I Can Do</a>
+                    <a href="#achievement" class="hover:text-indigo-600 transition">Achievement</a>
+                    <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="px-4 py-1.5 rounded-full text-sm font-semibold bg-indigo-100 text-indigo-700 inline-block mb-4">
+                Mahasiswa Baru S1 Teknik Informatika
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-gray-900 tracking-tight mb-4">
+                Halo, Saya <span class="text-indigo-600">Naifatul Ashila</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-gray-600 mb-8">
+                Universitas Negeri Surabaya | NIM: 26051204185
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#contact" class="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 transition">
+                    Hubungi Saya
+                </a>
+                <a href="https://drive.google.com/file/d/1GG_936_6V3P3tB_DNhkgUopHKvfLOXtF/view?usp=drive_link" target="_blank" class="px-6 py-3 bg-white text-indigo-600 font-medium rounded-lg border border-indigo-200 shadow-sm hover:bg-indigo-50 transition">
+                    Lihat CV / Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">About Me</h2>
+                <div class="w-16 h-1 bg-indigo-600 mx-auto mt-2 rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 items-stretch">
+                <!-- Deskripsi Utama -->
+                <div class="md:col-span-2 bg-gray-50 p-8 rounded-2xl border border-gray-100 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Profil Diri</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Mahasiswa Baru S1 Teknik Informatika di Universitas Negeri Surabaya dengan latar belakang pemahaman dasar IT dan manajemen media. Memiliki pengalaman kerja operasional F&B serta aktif dalam organisasi sekolah di bidang dokumentasi dan jurnalistik.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                            Mampu bekerja secara profesional, komunikatif, serta memiliki kemampuan <i>problem solving</i> dan manajemen waktu yang baik. Berkomitmen dalam bekerja sama dan bertanggung jawab terhadap apa yang sudah dibebankan kepada diri sendiri, serta berani mengambil risiko supaya bisa berkembang.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Informasi Tambahan / Statistik -->
+                <div class="bg-indigo-600 text-white p-8 rounded-2xl shadow-md flex flex-col justify-center space-y-6">
+                    <div>
+                        <p class="text-indigo-200 text-sm font-medium">Program Studi</p>
+                        <p class="text-xl font-bold">S1 Teknik Informatika</p>
+                    </div>
+                    <div>
+                        <p class="text-indigo-200 text-sm font-medium">Perguruan Tinggi</p>
+                        <p class="text-xl font-bold">Universitas Negeri Surabaya</p>
+                    </div>
+                    <div>
+                        <p class="text-indigo-200 text-sm font-medium">NIM</p>
+                        <p class="text-xl font-bold">26051204185</p>
+                    </div>
+                    <div>
+                        <p class="text-indigo-200 text-sm font-medium">Aktivitas Saat Ini</p>
+                        <p class="text-xl font-bold">Mahasiswa Baru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT I CAN DO SECTION -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">What I Can Do</h2>
+                <p class="text-gray-600 mt-2">Kemampuan dan layanan yang dikuasai</p>
+                <div class="w-16 h-1 bg-indigo-600 mx-auto mt-2 rounded"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Skill 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Pemrograman & IT Basic</h3>
+                    <p class="text-gray-500 text-sm">Pemahaman dasar bidang IT dan logika pemrograman dasar.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-photo-film"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Konten Kreator & Media</h3>
+                    <p class="text-gray-500 text-sm">Manajemen konten, media sosial, dan pengelolaan aset media visual.</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-newspaper"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Jurnalistik & Penulisan</h3>
+                    <p class="text-gray-500 text-sm">Pengalaman dalam dokumentasi, penulisan berita, dan kegiatan jurnalistik.</p>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Operasional Retail / F&B</h3>
+                    <p class="text-gray-500 text-sm">Pengalaman kerja operasional lapangan, komunikasi, dan layanan pelanggan.</p>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Komunikasi & Layanan</h3>
+                    <p class="text-gray-500 text-sm">Mampu berkomunikasi dengan baik, ramah, dan mengutamakan kualitas layanan.</p>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Manajemen & Bekerja Cepat</h3>
+                    <p class="text-gray-500 text-sm">Manajemen waktu yang efisien dan kemampuan beradaptasi di lingkungan dinamis.</p>
+                </div>
+
+                <!-- Skill 7 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Kerja Sama & Problem Solving</h3>
+                    <p class="text-gray-500 text-sm">Dapat bekerja sama dalam tim dan memecahkan masalah secara efektif.</p>
+                </div>
+
+                <!-- Skill 8 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-hashtag"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Manajemen Media Sosial</h3>
+                    <p class="text-gray-500 text-sm">Perencanaan, publikasi, dan pengelolaan media organisasi/perusahaan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENT SECTION -->
+    <section id="achievement" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Achievement</h2>
+                <p class="text-gray-600 mt-2">Pencapaian dan Pengalaman Organisasi / Kerja</p>
+                <div class="w-16 h-1 bg-indigo-600 mx-auto mt-2 rounded"></div>
+            </div>
+
+            <div class="space-y-6 max-w-4xl mx-auto">
+                <!-- Item 1 -->
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-xl p-6 border border-gray-100 justify-between items-start md:items-center">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
+                            Pengalaman Organisasi
+                        </span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">Tim Jurnalistik & Dokumentasi Sekolah</h3>
+                        <p class="text-gray-600 text-sm mt-1">Aktif dalam publikasi, liputan acara, dan pengelolaan media dokumentasi sekolah.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-xl p-6 border border-gray-100 justify-between items-start md:items-center">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">
+                            Pengalaman Kerja
+                        </span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2">Staf Operasional F&B</h3>
+                        <p class="text-gray-600 text-sm mt-1">Mengelola layanan pelanggan, ketepatan kerja operasional, dan komunikasi tim lapangan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold">Hubungi Saya</h2>
+                <p class="text-gray-400 mt-2">Mari terhubung dan berkolaborasi bersama</p>
+                <div class="w-16 h-1 bg-indigo-500 mx-auto mt-2 rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Email -->
+                <a href="mailto:naifa.ashila2808@gmail.com" class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-indigo-500 transition group">
+                    <div class="w-12 h-12 bg-indigo-600/20 text-indigo-400 rounded-lg flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">Email</h3>
+                    <p class="text-gray-400 text-sm break-all">naifa.ashila2808@gmail.com</p>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/ashila2808" target="_blank" class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-indigo-500 transition group">
+                    <div class="w-12 h-12 bg-indigo-600/20 text-indigo-400 rounded-lg flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">GitHub</h3>
+                    <p class="text-gray-400 text-sm">github.com/ashila2808</p>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/naifa-ashila-445418433?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-indigo-500 transition group">
+                    <div class="w-12 h-12 bg-indigo-600/20 text-indigo-400 rounded-lg flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-indigo-600 group-hover:text-white transition">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-1">LinkedIn</h3>
+                    <p class="text-gray-400 text-sm">Naifatul Ashila</p>
+                </a>
+            </div>
+
+            <!-- Resume Link -->
+            <div class="mt-12 text-center">
+                <a href="https://drive.google.com/file/d/1GG_936_6V3P3tB_DNhkgUopHKvfLOXtF/view?usp=drive_link" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition">
+                    <i class="fa-solid fa-file-arrow-down"></i> Unduh / Lihat CV Lengkap
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-950 py-6 text-center text-gray-500 text-sm border-t border-gray-800">
+        <p>&copy; 2026 Naifatul Ashila. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
